@@ -97,7 +97,35 @@ body {
     -webkit-transition: none !important;
     -ms-transition: none !important;
     transition: none !important; }
+.resume {
+  background: linear-gradient(to right, rgba(32, 31, 31, 0.432), rgba(42, 245, 1, 0.637));
+  padding: 7px;
+  border: 2px solid rgba(255, 68, 0, 0.877);
+  color: white;
+  width: 20%;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10%;
+  box-shadow: 0 0 5px 2px;
+}
 
+.resume:hover {
+   -moz-transform: scale(1.075);
+    -webkit-transform: scale(1.075);
+    -ms-transform: scale(1.075);
+    transform: scale(1.075);
+}
+.resume a {
+  color: white;
+  text-decoration: none;
+  border-bottom: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.resume a:hover {
+ color: #000 !important; 
+}
 /* Type */
 body, input, select, textarea {
   color: #7f888f;
@@ -2162,6 +2190,7 @@ button,
   .row li {
     margin: 7px;
     color: yellow;
+    font-size: 16px;
   }
 
   .row h3 {
