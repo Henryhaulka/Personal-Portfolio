@@ -903,6 +903,9 @@ hr {
     .skills .row {
         grid-template-columns: 1fr;
         }
+      .resume {
+        width: 100%;
+      }
     .row {
       display: flex;
       flex-wrap: wrap;
