@@ -75,6 +75,8 @@ body {
   html, body {
     min-width: 320px; } }
 
+    
+
 html {
   box-sizing: border-box; }
 
@@ -870,6 +872,9 @@ hr {
           .row.gtr-200.gtr-uniform > * {
             padding-top: 3em; } }
   @media screen and (max-width: 480px) {
+    .skills .row {
+        grid-template-columns: 1fr;
+        }
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -2141,6 +2146,36 @@ button,
   .logo strong {
     color:white;
   }
+
+  .row {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    text-align: center;
+  }
+
+  .row ul {
+    list-style: none;
+  }
+
+  .row li {
+    margin: 7px;
+    color: yellow;
+  }
+
+  .row h3 {
+    color: black;
+    font-size: 24px;
+  }
+
+  .skills {
+    background-image: linear-gradient(to right, rgba(255, 68, 0, 0.795), rgba(0, 0, 0, 0.788)),url("https://academy.fredsappliance.com/wp-content/uploads/2020/11/tools1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    background-position: top;
+    margin-bottom: 2rem;
+  }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
@@ -2159,7 +2194,9 @@ button,
         -webkit-flex-shrink: 0;
         -ms-flex-shrink: 0;
         flex-shrink: 0;
-        width: 100%; }
+        width: 100%;
+        height: 50vh; 
+        }
       #banner .image {
         -moz-flex-grow: 0;
         -webkit-flex-grow: 0;
@@ -2174,9 +2211,10 @@ button,
         max-height: 50vh;
         min-height: 18em;
         width: 100%; } }
-  @media screen and (orientation: portrait) and (max-width: 480px) {
+        @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
       max-height: 35vh; } }
+      
 
 /* Footer */
 #footer .copyright {
