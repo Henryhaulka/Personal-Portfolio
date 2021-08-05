@@ -1,7 +1,8 @@
 # Personal-Portfolio-Website
 In this project, I built my Portfolio Website which is fully responsive
 
-![screenshot](img/game1.png)
+![screenshot](img/port1.png)
+![screenshot](img/port2.png)
 
 ## Built With 🧰
 
