@@ -48,7 +48,7 @@ If you can view this README.md file using a computer or a mobile phone with a br
 ## 🤝 Contributing
 
 The best contribution you can make is helping us improve our work by submitting an issue. 
-Feel free to check the [issues page](https://github.com/Henryhaulka/Personal-Portfolio/).
+Feel free to check the [issues page](https://github.com/Henryhaulka/Personal-Portfolio/issues).
 
 You can also fork this repo and work on it.
 
